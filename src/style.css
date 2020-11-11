@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+:root{
+    --font1:'Bebas Neue', cursive;
+    --font2:'Montserrat', sans-serif;
+}
+*{
+    font-family: var(--font1);
+}
+body{
+    height: 200vh;
+}
+
+
+.navbar-brand img{
+    height: 50px;
+}
+#mycontainer{
+    max-width: 1400px;
+}
+#footer{
+    background: #000;;
+}
+#footer h4{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font2);
+
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font2);
+
+}
+#footer-mid{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+#formulario_email::placeholder{
+    text-align: center;
+    font-family: var(--font2);
+}
+#boton-footer{
+    font-family: var(--font2);
+    font-size: 17px;
+}
+#titulo{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+    
+}
+#contenido{
+    font-size: 18px;
+}
+#header{
+    background-color: #050025
+}    

@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "npm bien chingon",
+  "main": "index.js",
+  "scripts": {
+    "test": "test, start",
+    "start": "live-server"
+  },
+  "author": "me",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
