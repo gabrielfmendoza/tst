@@ -9,6 +9,7 @@
 }
 body{
     height: 200vh;
+    padding-top: 56px;
 }
 
 
@@ -41,6 +42,9 @@ body{
 #formulario_email::placeholder{
     text-align: center;
     font-family: var(--font2);
+}
+#formulario_email{
+    font-family:var(--font2); 
 }
 #boton-footer{
     font-family: var(--font2);
