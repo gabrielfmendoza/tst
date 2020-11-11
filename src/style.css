@@ -13,10 +13,10 @@ body{
 
 
 .navbar-brand img{
-    height: 50px;
+    height: 40px;
 }
 #mycontainer{
-    max-width: 1400px;
+    max-width: 1100px;
 }
 #footer{
     background: #000;;
@@ -25,6 +25,7 @@ body{
     color: white;
     text-decoration: none;
     font-family: var(--font2);
+    font-size: 14px;
 
 }
 #footer a{
@@ -47,7 +48,7 @@ body{
 }
 #titulo{
     display: block;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 2px;
 
