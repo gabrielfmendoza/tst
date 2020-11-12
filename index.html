@@ -16,7 +16,7 @@
 
 <!--       HEADER                -->    
 <header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" style="background-color: #050025">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" >
     <div id="mycontainer"class="container">
       
         <a class="navbar-brand" href="#">
@@ -92,7 +92,59 @@
 
 <!--       /HEADER                --> 
 
-<!--       SLIDER                --> 
+<!--       SLIDER                -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade mt-2 mb-5" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+    
+  </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <img src="./src/img/icon/pc.svg" alt="" id="la-imagen">
+            </div>
+            <div class="col" id="slider-contenido">
+              <h1 class="mb-4">Encontrá la solución perfecta</h1>
+              <p id="texto-slider" class="pb-4">En TST te brindamos soluciones profesionales acordes a las necesidades y el presupuesto de tu negocio.</p>
+              <button type="button" class="btn btn-outline-primary pr-4 pl-4 mr-4 mt-2">LEER MAS</button>
+              <div class=" d-inline-flex ml-3 mt-2"><a href="#" id="link-slider">CONTACTO</a></div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="./src/img/icon/pc.svg" alt="" id="la-imagen">
+            </div>
+            <div class="col">
+              <h1>equis de</h1>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev" id="anterior">
+    <span class="carousel-control-prev-icon" aria-hidden="true" id="imagen-anterior"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next" id="siguiente">
+    <span class="carousel-control-next-icon" aria-hidden="true" id="imagen-siguiente"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <!--       /SLIDER                --> 
 <!--       FOOTER                --> 
     <footer id="footer" class="pb-5 pt-5">
