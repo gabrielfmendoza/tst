@@ -87,7 +87,7 @@ body{
     transform: translate3d(0, 0, 0);
 }   
 #la-imagen{
-    height: 300px;
+    height: 340px;
     padding-top: 10%;
 }
 #slider-contenido{
@@ -233,6 +233,8 @@ bottom: 40px;
     #fondo-row {
         display: flex;
         flex-direction: column;
+        width: 90%;
+        margin: auto;
     }
     #texto-slider{
         font-size: 15px;
@@ -246,6 +248,7 @@ bottom: 40px;
     #la-imagen{
        max-width: 65%;
         padding-top: unset;
+        padding-bottom: 15%;
     
     }
 
@@ -279,6 +282,11 @@ bottom: 40px;
         bottom: 0;
         
            
+        }
+        #fondo-row {
+           
+            width: unset;
+            
         }
         
 }
