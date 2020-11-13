@@ -244,7 +244,7 @@ bottom: 40px;
      
      }
     #la-imagen{
-       max-width: 80%;
+       max-width: 65%;
         padding-top: unset;
     
     }
@@ -259,6 +259,9 @@ bottom: 40px;
     .carousel-indicators{
         right: 0;
         left: 0;
+    }
+    #mitad-imagen{
+        height: 270px;
     }
    
 }
