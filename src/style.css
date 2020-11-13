@@ -170,7 +170,67 @@ bottom: 40px;
 }
 /* /BOTONES DE SLIDER */
                       /* /SLIDER */
+                      /* SERVICIOS SECTION */
 
+
+
+.service-main{
+    width: 100%;
+    min-height: 500px;
+    background-color: #06012D;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+#titulo-servicios{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: -2%;
+   
+}
+#titulo-servicios::after{
+    content: "";
+    width: 100%;
+    background: white;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+.card{
+    background-color:#050025;
+    color: white;
+    width: 20rem;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card-head{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-head> img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: -10%;
+}
+#tarjeta-texto{
+    font-family: var(--font2);
+    font-size: .8rem;
+    font-weight: 400;
+    
+}
+.card{
+    margin: auto;
+}
+.service-main a{
+    text-decoration: none;
+}
+
+                     /* /SERVICIOS SECTION */
 
 
                       /* FOOTER */
@@ -266,6 +326,9 @@ bottom: 40px;
     #mitad-imagen{
         height: 270px;
     }
+    .card{
+        margin: auto;
+    }
    
 }
 
@@ -287,6 +350,9 @@ bottom: 40px;
            
             width: unset;
             
+        }
+        .card{
+            margin: auto;
         }
         
 }
