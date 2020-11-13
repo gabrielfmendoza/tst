@@ -16,6 +16,7 @@ body{
 #navbar{
     background-color: #050025;
     
+    
    
 }
 .navbar-brand img{
@@ -23,6 +24,7 @@ body{
 }
 #mycontainer{
     max-width: 1100px;
+
 }
 #separador_redes img{
     border-left:1px solid white ;
@@ -52,6 +54,7 @@ body{
     width: 100%;
     left: 0;
 }
+
                       /* /HEADER */
 
                       /* SLIDER */
@@ -84,15 +87,22 @@ body{
     transform: translate3d(0, 0, 0);
 }   
 #la-imagen{
-    height: 400px;
+    height: 300px;
+    padding-top: 10%;
 }
 #slider-contenido{
     color: white;
     margin-top: 5%;
+    margin-left: 1%;
 }
 #slider-contenido > p{
     font-family:var(--font2) ;
     line-height: 25px;
+}
+#slider-contenido > button{
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
 }
 #texto-slider{
     font-size: 15px;
@@ -115,10 +125,17 @@ body{
     padding-left: 15px;
     transition: ease-in-out .3s;
 }
+
+.carousel-indicators{
+    right: 12%;
+    left: unset;
+}
  /* BOTONES DE SLIDER */
 #anterior,#siguiente{
     bottom: 0;
     top: unset;
+    width: unset;
+    position: absolute;
 }
 #anterior{
 right: 0;
@@ -130,6 +147,10 @@ bottom: 40px;
 
    
 }
+#la-imagen1{
+    width: 100%;
+    max-height: 400px;
+}
 #imagen-siguiente{
     background-image: url(./img/icon/direccion.png);
     width: 40px;
@@ -140,6 +161,12 @@ bottom: 40px;
     transform: scaleX(-1);
     width: 40px;
     height: 40px;
+}
+#fondo-row{
+    background-color: #06012D;
+    position: relative;
+    min-height: 400px;
+    margin-top: 3%;
 }
 /* /BOTONES DE SLIDER */
                       /* /SLIDER */
@@ -193,8 +220,8 @@ bottom: 40px;
 #contenido{
     font-size: 18px;
 }
-                           /* /FOOTER */
 
+                           /* /FOOTER */
 
 @media (max-width: 768px){
     #footer-mid{
@@ -203,4 +230,52 @@ bottom: 40px;
     .efecto_hover_subrayado::before{
         content: none;
     }
+    #fondo-row {
+        display: flex;
+        flex-direction: column;
+    }
+    #texto-slider{
+        font-size: 15px;
+        width: 100%;
+    }
+    #la-imagen1{
+       
+        
+     
+     }
+    #la-imagen{
+       max-width: 80%;
+        padding-top: unset;
+    
+    }
+
+    #slider-contenido{
+        margin-bottom: 10%;
+        margin-left: unset;
+    }
+    #slider-contenido > h1 {
+        font-size: 2.3rem;
+    }
+    .carousel-indicators{
+        right: 0;
+        left: 0;
+    }
+   
+}
+
+@media (max-width: 576px){
+    #slider-contenido{
+        margin-bottom: 20%;
+    }
+    #anterior{
+        right: unset;
+        left: 0
+        ;
+        }
+        #siguiente{
+        bottom: 0;
+        
+           
+        }
+        
 }
