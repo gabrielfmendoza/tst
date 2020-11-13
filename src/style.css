@@ -229,6 +229,26 @@ bottom: 40px;
 .service-main a{
     text-decoration: none;
 }
+.efecto_hover_subrayado2{
+    position: relative;
+}    
+.efecto_hover_subrayado2::before{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #0163AF;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transition:all .3s;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.efecto_hover_subrayado2:hover::before{
+    width: 100%;
+    left: 0;
+}
 
                      /* /SERVICIOS SECTION */
 
