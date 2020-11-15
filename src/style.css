@@ -54,7 +54,9 @@ body{
     width: 100%;
     left: 0;
 }
-
+#imagenes-redes{
+    height: 15px!important;
+}
                       /* /HEADER */
 
                       /* SLIDER */
@@ -330,6 +332,10 @@ bottom: 40px;
     font-family: var(--font2);
 
 }
+#footer a:hover{
+    color: #007bff;
+    transition: .3s;;
+}
 #footer-mid{
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -347,8 +353,9 @@ bottom: 40px;
 }
 #redirecion-footer{
     font-size: 10px;
-    color: darkgray!important;
+    color: darkgray;
 }
+
 #titulo{
     display: block;
     font-size: 15px;
@@ -360,8 +367,35 @@ bottom: 40px;
 #contenido{
     font-size: 18px;
 }
-#imagenes-redes{
-    height: 15px!important;
+#volver-div{
+    margin-top: 40px;
+}
+#volver-cima{
+    font-family: var(--font2);
+    color: white;
+    font-size: .8rem;
+    position: relative;
+  
+    
+}
+#volver-cima::after{
+    content: url(./img/icon/flecha.svg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -20px ;
+    right: 0;
+    left: 0;
+}
+#volver-cima:hover::after{
+    top:-30px;
+    transition: all .2s;
+}
+#copyright{
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: .6rem;
+    margin-top: 20px;
 }
 
                            /* /FOOTER */
