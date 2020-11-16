@@ -12,6 +12,26 @@ body{
     padding-top: 60px;
     background-color: #050025;
 }
+.form-control{
+    font-family: var(--font2);
+    font-size: .8rem;
+}
+.modal-content{
+    background-color: #06012D;
+    color: #7B798C;
+}
+.modal-content input {
+    background-color:  #06012D;
+}
+.modal-content textarea{
+    background-color:  #06012D;
+}
+.modal-header{
+    border-bottom: 1px solid #7B798C;
+}
+.modal-footer{
+    border-top: 1px solid #7B798C;
+}
                     /* HEADER */
 #navbar{
     background-color: #050025;
@@ -19,6 +39,8 @@ body{
     
    
 }
+
+
 .navbar-brand img{
     height: 40px;
 }
