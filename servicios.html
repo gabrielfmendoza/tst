@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>tst page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/style-servicios.css">
+  </head>
+  <body>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">CONTACTO</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="./src/img/icon/equis.svg" alt=""></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+ 
+          <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="NOMBRE">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4"></label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="EMAIL">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4"></label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="TELEFONO">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿COMO PODEMOS AYUDARTE?" ></textarea>
+          </div>
+
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary">ENVIAR MENSAJE</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--       HEADER                -->    
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar" >
+    <div id="mycontainer"class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand mx-auto pr-5" href="./index.html">
+         
+          <picture>
+            <source srcset="./src/img/tst_logo.svg" media="(min-width: 600px)">
+            <img src="./src/img/icon/movil.svg" alt="MDN">
+           </picture>
+          
+        </a>
+        
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-4 dropdown efecto_hover_subrayado" >
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Seguridad informatica</a>
+                
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Diseño de pagina web</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Redes de informatica</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Diseño de pagina web</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Diseño y armado de servidores</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Consultoria</a>
+              </div>
+            </li>
+            <li class="nav-item mr-4 efecto_hover_subrayado">
+              <a class="nav-link" href="#">Productos</span></a>
+            </li>
+            <li class="nav-item mr-4 efecto_hover_subrayado">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Contacto</a>
+            </li>
+            
+            <li class="nav-item mr-4 efecto_hover_subrayado">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item mr-2 ml-3 d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <img src="./src/img/icon/Vector.svg" alt="" id="imagenes-redes">
+              </a>
+            </li>
+            <li class="nav-item d-none d-lg-block" id="separador_redes">
+              <a class="nav-link" href="#" >
+                <img src="./src/img/icon/Vector (1).svg" class="pr-3 pl-3"alt="" id="imagenes-redes">
+              </a>
+            </li>
+            <li class="nav-item ml-2 d-none d-lg-block " >
+              <a class="nav-link" href="#">
+                <img src="./src/img/icon/Vector (2).svg" alt="" id="imagenes-redes">
+              </a>
+            </li>
+            <li class="nav-item d-block d-lg-none pt-4" >
+              <img src="./src/img/icon/Vector (2).svg" alt="">
+              <img src="./src/img/icon/Vector (1).svg" class="pr-4 pl-4"alt="">
+              <img src="./src/img/icon/Vector.svg" alt="">
+            </li>
+            
+          </ul>
+
+        </div>
+
+        
+    </div>
+  </nav>
+
+</header>
+
+
+
+<!--       /HEADER                --> 
+    <div class="servicios">
+        <div class="container" id="mycontainer">
+            <div class="row mt-5 mb-5">
+                <div class="col">
+                    <h1 id="titulo-service">NUESTROS SERVICIOS</h1>
+                </div>
+            </div>
+            <a   data-toggle="collapse" href="#collapse-service" role="button" aria-expanded="false" aria-controls="collapse-service">
+                <div class="row" id="service-row">
+                    <div class="col" >
+                        <div class="row">
+                            <div class="col d-flex justify-content-center" id="mitad-imagen">
+                                <img src="./src/img/servicios/seguridad.jpg" id="la-imagen-servicio" alt="">
+                            </div>
+                            <div class="col-12 col-md-6" id="servicios-contenido">
+                                <h1 class="pt-5 pb-2">SEGURIDAD INFORMATICA</h1>
+                                <p>La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: - Integridad, Disponibilidad y Autenticidad.</p>
+                            </div>
+                            <div class="col-12" id="contenedor-link" >
+                                <p id="link-service">ver más</p>
+                            </div>
+                        </div>
+                        
+                            
+                        
+                    </div>
+                </div>
+            </a>
+            <div class="collapse" id="collapse-service">
+                <h1 class="mt-5">¿QUE OFRECEMOS?</h1>
+                <p class="mt-4">La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: <strong> Integridad, Disponibilidad y Autenticidad.</strong></p>
+                <ul class="mt-4">
+                    <li>Políticas de seguridad informática, tendientes a proteger el hardware y el software. Definición de Metodologías.
+                    </li>
+                    <li>inventario de todo el parque informático</li>
+                    <li>Inventario de Software</li>
+                    <li>Permisos de acceso a los recursos informáticos
+                    </li>
+                    <li>Firewall, Proxy, ACL, Antivirus, Antimalware, Etc.</li>
+                </ul>
+            </div>
+
+
+            <a  data-toggle="collapse" href="#diseño" role="button" aria-expanded="false" aria-controls="diseño">
+                <div class="row mt-5" id="service-row">
+                    <div class="col" >
+                        <div class="row">
+                            <div class="col d-flex justify-content-center" id="mitad-imagen">
+                                <img src="./src/img/servicios/diseño.jpg" id="la-imagen-servicio" alt="">
+                            </div>
+                            <div class="col-12 col-md-6" id="servicios-contenido">
+                                <h1 class="pt-5 pb-2">DISEÑO DE PAGINAS WEB</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat bibendum velit, venenatis lobortis velit dignissim ut.</p>
+                            </div>
+                            <div class="col-12" id="contenedor-link" >
+                                <p id="link-service">ver mas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="collapse" id="diseño">
+                <h1 class="mt-5">¿QUE OFRECEMOS?</h1>
+                <p class="mt-4">La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: <strong> Integridad, Disponibilidad y Autenticidad.</strong></p>
+                <ul class="mt-4">
+                    <li>Políticas de seguridad informática, tendientes a proteger el hardware y el software. Definición de Metodologías.
+                    </li>
+                    <li>inventario de todo el parque informático</li>
+                    <li>Inventario de Software</li>
+                    <li>Permisos de acceso a los recursos informáticos
+                    </li>
+                    <li>Firewall, Proxy, ACL, Antivirus, Antimalware, Etc.</li>
+                </ul>
+              </div>
+              
+
+              <a  data-toggle="collapse" href="#redes" role="button" aria-expanded="false" aria-controls="redes">
+                <div class="row mt-5" id="service-row">
+                    <div class="col" >
+                        <div class="row">
+                            <div class="col d-flex justify-content-center" id="mitad-imagen">
+                                <img src="./src/img/servicios/redes.jpg" id="la-imagen-servicio" alt="">
+                            </div>
+                            <div class="col-12 col-md-6" id="servicios-contenido">
+                                <h1 class="pt-5 pb-2">REDES DE INFORMATICA</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat bibendum velit, venenatis lobortis velit dignissim ut.</p>
+                            </div>
+                            <div class="col-12" id="contenedor-link" >
+                                <p id="link-service">ver mas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="collapse" id="redes">
+                <h1 class="mt-5">¿QUE OFRECEMOS?</h1>
+                <p class="mt-4">La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: <strong> Integridad, Disponibilidad y Autenticidad.</strong></p>
+                <ul class="mt-4">
+                    <li>Políticas de seguridad informática, tendientes a proteger el hardware y el software. Definición de Metodologías.
+                    </li>
+                    <li>inventario de todo el parque informático</li>
+                    <li>Inventario de Software</li>
+                    <li>Permisos de acceso a los recursos informáticos
+                    </li>
+                    <li>Firewall, Proxy, ACL, Antivirus, Antimalware, Etc.</li>
+                </ul>
+              </div>
+              
+              
+              <a  data-toggle="collapse" href="#diseño2" role="button" aria-expanded="false" aria-controls="diseño2">
+                <div class="row mt-5" id="service-row">
+                    <div class="col" >
+                        <div class="row">
+                            <div class="col d-flex justify-content-center" id="mitad-imagen">
+                                <img src="./src/img/servicios/diseño2.jpg" id="la-imagen-servicio" alt="">
+                            </div>
+                            <div class="col-12 col-md-6" id="servicios-contenido">
+                                <h1 class="pt-5 pb-2">DISEÑO DE PAGINAS WEB</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat bibendum velit, venenatis lobortis velit dignissim ut.</p>
+                            </div>
+                            <div class="col-12" id="contenedor-link" >
+                                <p id="link-service">ver mas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="collapse" id="diseño2">
+                <h1 class="mt-5">¿QUE OFRECEMOS?</h1>
+                <p class="mt-4">La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: <strong> Integridad, Disponibilidad y Autenticidad.</strong></p>
+                <ul class="mt-4">
+                    <li>Políticas de seguridad informática, tendientes a proteger el hardware y el software. Definición de Metodologías.
+                    </li>
+                    <li>inventario de todo el parque informático</li>
+                    <li>Inventario de Software</li>
+                    <li>Permisos de acceso a los recursos informáticos
+                    </li>
+                    <li>Firewall, Proxy, ACL, Antivirus, Antimalware, Etc.</li>
+                </ul>
+              </div>
+
+              <a  data-toggle="collapse" href="#consultoria" role="button" aria-expanded="false" aria-controls="consultoria">
+                <div class="row mt-5 mb-5" id="service-row">
+                    <div class="col" >
+                        <div class="row">
+                            <div class="col d-flex justify-content-center" id="mitad-imagen">
+                                <img src="./src/img/servicios/consultoria.jpg" id="la-imagen-servicio" alt="">
+                            </div>
+                            <div class="col-12 col-md-6" id="servicios-contenido">
+                                <h1 class="pt-5 pb-2">CONSULTORIA</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat bibendum velit, venenatis lobortis velit dignissim ut.</p>
+                            </div>
+                            <div class="col-12" id="contenedor-link" >
+                                <p id="link-service">ver mas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="collapse" id="consultoria">
+                <h1 class="mt-5">¿QUE OFRECEMOS?</h1>
+                <p class="mt-4">La información es uno de los principales activos de una organización por lo tanto se deben proteger los tres pilares fundamentales de la información: <strong> Integridad, Disponibilidad y Autenticidad.</strong></p>
+                <ul class="mt-4">
+                    <li>Políticas de seguridad informática, tendientes a proteger el hardware y el software. Definición de Metodologías.
+                    </li>
+                    <li>inventario de todo el parque informático</li>
+                    <li>Inventario de Software</li>
+                    <li>Permisos de acceso a los recursos informáticos
+                    </li>
+                    <li>Firewall, Proxy, ACL, Antivirus, Antimalware, Etc.</li>
+                </ul>
+              </div>     
+              
+        </div>
+  
+    </div>
+<!--       FOOTER                --> 
+<footer id="footer" class="pb-2 pt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-md pb-4 pb-md-0">
+          <img src="./src/img/logo_footer.svg" class="mx-auto d-block pb-4" alt="logo tst" height="210">
+          
+        </div>
+        <div class="col-12 col-md mt-5 mt-md-0 pb-4 pb-md-0" id="footer-mid">
+          <h4 href="#" id="titulo" class="pb-3 text-uppercase">suscribete</h4>
+          <h4 href="#" id="contenido" class="text-muted">y obtene beneficios especiales</h4>
+          <form>
+            <div class="form-group">
+              <label for="formulario_email"></label>
+              <input type="text" class="form-control" id="formulario_email" placeholder="tucorreo@gmail.com">
+            </div>
+            <div class="form-group">
+              <button type="input" class="btn btn-primary btn-lg btn-block" id="boton-footer">suscribete</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-md mt-5 mt-md-0">
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-6 text-uppercase" id="titulo">
+               <H4>MENU</H4>
+               <ul class="navbar-nav">
+                <li class="nav-item text-center ml-0 text-lg-left pt-5 ml-lg-5 " id="redirecion-footer"><a href="#">Home</a></li>
+                <li class="nav-item text-center ml-0 text-lg-left pt-3 ml-lg-5" id="redirecion-footer"><a href="#">Servicios</a></li>
+                <li class="nav-item text-center ml-0 text-lg-left pt-3 ml-lg-5" id="redirecion-footer"><a href="#">Productos</a></li>
+               </ul>
+              </div>
+             <div class="col-6 text-uppercase" id="titulo">
+               <h4 href="#">Informacion</h4>
+               <ul class="navbar-nav">
+                <li class="nav-item text-center ml-0 text-lg-left pt-5 ml-lg-3" id="redirecion-footer"><a href="#">Contacto</a></li>
+                <li class="nav-item text-center ml-0 text-lg-left pt-3 ml-lg-3" id="redirecion-footer"><a href="#">SobreNosotros</a></li>
+                <li class="nav-item text-center ml-0 text-lg-left pt-3 ml-lg-3" id="redirecion-footer"><a href="#">chat en linea</a></li>
+               </ul>
+              
+              </div>
+            
+           </div>
+         </div>
+          
+          
+        </div>
+        
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center" id="volver-div" >
+          <a href="#" id="volver-cima">VOLVER A LA CIMA</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p id="copyright">© 2020 Tucumán Soluciones Tecnológicas | All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--       /FOOTER               --> 
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+</body>
+</html>
